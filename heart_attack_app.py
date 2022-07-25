@@ -73,7 +73,7 @@ with st.form("Patient's info"):
     cp = st.sidebar.selectbox('Chest Pain Type',('Typical Angina','Atypical Angina',
                               'Non-anginal Pain','Asymptomatic'))
     trtbps = st.sidebar.slider('Resting Blood Pressure', 0, 370, 120, 1)
-    chol = st.sidebar.slider('Cholesterol in mg/dl', 0, 3165, 60, 1)
+    chol = st.sidebar.slider('Cholesterol in mg/dl', 0, 300, 60, 1)
     fbs = st.sidebar.radio('Fasting Blood Sugar', ('More than 120 mg/dl',
                             'Less than or equal to 120 mg/dl'))
     restecg = st.sidebar.selectbox('Resting Electrocardiographic Results',
