@@ -20,8 +20,8 @@ def install(package):
 install('pickle-mixin')
 install('sklearn')
 
-from heart_attack_module import ModelEvaluation
-import pandas as pd
+# from heart_attack_module import ModelEvaluation
+# import pandas as pd 
 import numpy as np
 import pickle
 import os
@@ -38,17 +38,17 @@ with open(MODEL_PATH,'rb') as file:
 
 #%% Test Case Accuracy
 
-df_test = pd.read_csv(TEST_CASE)
+# df_test = pd.read_csv(TEST_CASE)
 
-X_test = df_test.drop('output',1)
-y_test = df_test['output']
+# X_test = df_test.drop('output',1)
+# y_test = df_test['output']
 
-y_pred = model.predict(X_test)
+# y_pred = model.predict(X_test)
 
-df_test['predicted_output'] = y_pred
+# df_test['predicted_output'] = y_pred
 
-me = ModelEvaluation()  
-print(me.classification_report(X_test, y_test, model, 'ml'))
+# me = ModelEvaluation()  
+# print(me.classification_report(X_test, y_test, model, 'ml'))
 
 #%% Streamlit
 
