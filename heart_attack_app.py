@@ -9,8 +9,18 @@ Created on Mon Jul 25 09:34:51 2022
 # type cd "directory path of app.py file"
 # type streamlit run app.py
 
-from heart_attack_module import ModelEvaluation
 import streamlit as st
+import subprocess
+import sys
+
+@st.cache
+def install(package):
+    subprocess.check_call([sys.executable,'-m','pip','install',package])
+
+install('pickle-mixin')
+install('sklearn')
+
+from heart_attack_module import ModelEvaluation
 import pandas as pd
 import numpy as np
 import pickle
@@ -43,7 +53,7 @@ print(me.classification_report(X_test, y_test, model, 'ml'))
 #%% Streamlit
 
 st.title('Heart Attack Prediction App')
-st.write('The data for the following example is originally from the: \n\n \
+st.write('The data for the following example is collected from the: \n\n \
 1. Hungarian Institute of Cardiology. Budapest \n \
 2. University Hospital, Zurich, Switzerland \n \
 3. University Hospital, Basel, Switzerland \n \
