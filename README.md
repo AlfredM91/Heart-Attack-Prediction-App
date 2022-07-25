@@ -112,7 +112,16 @@ To do:
 
 This data was sourced from [Heart Attack Analysis Prediction Dataset | Kaggle](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 
-Special thanks to Alex Koh and Warren Loo from SHRDC for the guidance and training to make 
+Creators of the original dataset:
+1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
+2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
+3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
+4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation:Robert Detrano, M.D., Ph.D.
+
+Donor:
+David W. Aha (aha '@' ics.uci.edu) (714) 856-8779
+
+Special thanks to Alex Koh and Warren Loo from SHRDC and Dr Mohammed Al-Obaydee from HRD Academy for the guidance and training to make 
 this project possible.
 
 ## Contact
