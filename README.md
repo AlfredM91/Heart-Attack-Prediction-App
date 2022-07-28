@@ -16,7 +16,7 @@ For a live demo, please click [here](https://alfredm91-heart-attack-prediction-h
 
 ## General Information
 
-This Machine Learning project is able to predict the likelihood of getting a heart attack based on your health profile. It will help medical practicioners to identify said patient and advise him/her on preventative measures to avoid getting a heart attack in the future.
+This Machine Learning project is able to predict the likelihood of getting a heart attack based on your health profile. It will help medical practitioners to identify said patient and advise him/her on preventative measures to avoid getting a heart attack in the future.
 
 According to World Health Organisation (WHO), every year around 17.9 million deaths are due to cardiovascular diseases (CVDs) predisposing CVD becoming the leading cause of death globally. CVDs are a group of disorders of the heart and blood vessels, if left untreated it may cause heart attack. Heart attack occurs due to the presence of obstruction of blood flow into the heart. The presence of blockage may be due to the accumulation of fat, cholesterol, and other substances. Despite treatment has improved over the years and most CVD’s pathophysiology have been elucidated, heart attack can still be fatal.
 
